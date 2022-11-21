@@ -23,6 +23,7 @@ Design: [Wappy weekend](./img/design.png)
 -   Github pages
 -   basic [HTML (structure)](https://www.w3schools.com/TAGS/default.asp) and CSS (style)
 -   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- 
 
 ## 🧰 Getting Started
 
@@ -46,7 +47,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/sarunaskl/03-FORRESST.git
+    git clone https://github.com/sarunaskl/05-HAPPY-WEEKEND.git
     ```
 2. Install NPM packages
     ```sh
