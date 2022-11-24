@@ -13,107 +13,12 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-        body {
-            background-color: rgb(255, 215, 208);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-        }
-        header {
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc((100% - 800px) / 2);
-            
-        }
-        header > img {
-            height: 40px; 
-            float: left;
-        }
-        header > nav {
-            margin-top: 4px;
-            float: right;
-        }
-        header > nav > a {
-            display: inline-block;
-            padding: 5px;
-            padding-left: 10px;
-            padding-right: 10px;
-            color: rgb(63, 67, 113);
-            font-size: 18px;
-            line-height: 18px;
-            text-decoration: none;
-            margin-left: 20px;
-            font-family: monospace;
-            border: 2px solid transparent;
-            border-radius: 4px;
-        }
-        header > nav > a > :first-child {
-            margin-left: 0;
-        }
-        header > nav > a:hover {
-            border: 2px solid rgb(63, 67, 113);
-            
-        }
-        main {
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc((100% - 800px) / 2);
-            
-        }
-        main > div {
-            width: 35%;
-            float: left;
-        }
-        h1 {
-            color: rgb(63, 67, 113);
-            font-size: 55px;
-            margin: 0;
-        }
-        h1 > span {
-            font-size: 48px;
-        }
-        p {
-            color: rgb(63, 67, 113);
-            font-size: 18px;
-            line-height: 1.5em;
-            word-spacing: 5px;
-            letter-spacing: 1px;
-
-
-        }
-        main > div > a {
-            display: inline-block;
-            color: white;
-            padding: 0.5em;
-            padding-left: 3em;
-            padding-right: 3em;
-            font-size: 20px;
-            text-decoration: none;
-            background-color: rgb(63, 67, 113);
-            border-radius: 0.5em; 
-            text-transform: uppercase;
-            box-shadow: 0 8px 30px -10px gray;
-        }
-        main > div > div {
-            margin-top: 20px;
-        }
-        main > div > div > a {
-
-        }
-        main > img {
-            margin-top: 30px;
-            width: 60%;
-            float:right;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/main.css"> 
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="Logo">
-        <nav>
+    <header class="main-header">
+        <img class="logo" src="./img/logo.png" alt="Logo">
+        <nav class="main-nav">
             <a style="border-color: rgb(63, 67, 113);" href="??">Home</a>
             <a href="??">Project</a>
             <a href="??">About</a>
@@ -123,17 +28,17 @@
     </header>
 
     <main>
-        <div>
-            <h1>A HAPPY <span>WEEKEND</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores esse blanditiis alias voluptates neque. Rem rerum at commodi culpa, aliquam iusto quod nam, aperiam nostrum quos fugit officia ipsum laborum.</p>
-            <a href="??">More</a>
-            <div>
+        <div class="left-column">
+            <h1 class="main-title">A HAPPY <span>WEEKEND</span></h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores esse blanditiis alias voluptates neque. Rem rerum at commodi culpa, aliquam iusto quod nam, aperiam nostrum quos fugit officia ipsum laborum.</p>
+            <a class="more-button" href="??">More</a>
+            <div class="social-links">
                 <a href="???">Insta</a>
                 <a href="???">Twiter</a>
                 <a href="???">Facebook</a>
             </div>
         </div>
-        <img src="./img/main.png" alt="Main image">
+        <img class="right-column" src="./img/main.png" alt="Main image">
     </main>
 </body>
-</html>
+</html>         
